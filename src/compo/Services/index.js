@@ -1,5 +1,6 @@
 import React from 'react'
 import {
+    ServicesMain,
     ServicesContainer,
     ServicesWrapper,
     ServicesCard,
@@ -15,8 +16,10 @@ import Icon3 from '../InfoSection/img.svg'
 const Services = () => {
     return (
         <>
+            
             <ServicesContainer id='services'>
-                <ServicesH1>Our Services</ServicesH1>
+            <ServicesMain>
+            <ServicesH1>Our Services</ServicesH1>
                 <ServicesWrapper>
                     <ServicesCard>
                         <ServicesIcon src={Icon1} />
@@ -34,7 +37,9 @@ const Services = () => {
                         <ServicesP> Hello we help you so much do you wan that yhas tohzt kasf g wepo </ServicesP>
                     </ServicesCard>
                 </ServicesWrapper>
+                </ServicesMain>
             </ServicesContainer>  
+            
         </>
     )
 }

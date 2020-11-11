@@ -1,5 +1,16 @@
 import styled from 'styled-components'
 
+export const ServicesMain = styled.div`
+    display: grid;
+    justify-items: center;
+    margin-top: -200px;
+    max-height: 500px;
+
+    @media screen and (max-width: 768px) {
+        max-height: 760px;
+    }
+        
+`
 export const ServicesContainer = styled.div`
     height: 800px;
     display: flex;
@@ -10,10 +21,12 @@ export const ServicesContainer = styled.div`
 
     @media screen and (max-width: 768px){
         height: 1100px;
+        
     }
 
     @media screen and (max-width: 480px){
         height: 1300px;
+        
     }
 `
 

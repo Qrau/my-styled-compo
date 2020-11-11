@@ -41,6 +41,7 @@ export const Icon = styled.div`
 
 export const SidebarWrapper = styled.div`
     color: #fff;
+    margin-top: -20px;    
 `;
 
 export const SidebarMenu = styled.ul`
@@ -51,7 +52,7 @@ export const SidebarMenu = styled.ul`
     margin-top: 50px;
 
     @media screen and (max-width: 480px) {
-        grid-template-rows: repeat(6,60px);
+        
     }
 `
 
